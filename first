@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recommanded books</title>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.s-heading h1{
+	color:#f1eeee;
+	font-size: 5rem;
+  text-align: center;
+  font-weight: 400px;
+}
+
+.column {
+  float: right;
+  width: 30%;
+  margin-bottom: 40px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 300px) {
+  .column {
+    width: 75%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(247, 108, 108, 0.733);
+  width: 75%
+}
+
+.image img{
+    width: 50%
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container h2{
+  color:rgb(238, 213, 203);
+  text-align: center;
+  font-weight: 20px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(131, 122, 122);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(250, 211, 211);
+}
+</style>
+</head>
+<body background="bookback.jpg" style="width:100%">
+  <div class="s-heading">
+    <h1>RECOMMAND BOOKS</h1>
+    <p>Resize the browser window to see the effect.</p>
+  </div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="book2.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Frances Hodgson Burnett </h2>
+        <p><button class="button">Download</button>&nbsp;<button class="button">Read more</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="book3.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>J.C. Gorham</h2>
+        <p><button class="button">Download</button>&nbsp;<button class="button">Read more</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="book4.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Mark Twain</h2>
+        <p><button class="button">Download</button>&nbsp;<button class="button">Read more</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="book5.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Angela Brazil</h2>
+        <p><button class="button">Download</button>&nbsp;<button class="button">Read more</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="book6.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Louisa May Alcott</h2>
+        <p><button class="button">Download</button>&nbsp;<button class="button">Read more</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="book7.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Robert Louis Stevenson</h2>
+        <p><button class="button">Download</button>&nbsp;<button class="button">Read more</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
